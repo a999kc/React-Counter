@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,81 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+
 }
+
+.main-div {
+  padding:10px;
+  margin: 60px auto;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  height:400px;
+  width:300px;
+  font-family: sans-serif;
+  /* background-color: #bebcbc; */
+  border-radius: 12px;
+  border: 3px solid #6d6d6d
+}
+
+
+.header {
+  font-size: 32px;
+  color:#000000;
+
+}
+
+.counter {
+  font-size: 32px;
+  color:#000000;
+  font-weight:600
+}
+
+.btn-div {
+  padding: 20px 100px;
+  display:flex;
+  flex-direction: row-reverse;
+  gap:20px;
+}
+
+
+:is(.plus, .minus) {
+  padding: 20px 40px;
+  margin: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.plus {
+  background-color: #28b031;
+  
+}
+
+.minus {
+  background-color: #e51515;
+  
+}
+
+
+.plus:hover {
+  opacity: 0.8
+}
+
+.minus:hover {
+  opacity: 0.8
+}
+
+
+
